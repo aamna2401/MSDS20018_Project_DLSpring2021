@@ -5,7 +5,7 @@ Dataset Link:
 https://drive.google.com/drive/u/0/folders/1yTuWZM-5HQYiTXteFZUJgpEdyI2gYu7F
 
 Dependencies:
-numpy \n
+numpy
 torch
 torchvision
 Pillow
