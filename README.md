@@ -27,7 +27,7 @@ Best mAp  | 0.19
 
 ## mAp vs epochs
 
-![image](checkpoints/mAp.png)
+![image](checkpoints/mAP.png)
 
 ## Training Loss and Learning Rate
 
@@ -37,5 +37,7 @@ Best mAp  | 0.19
 
 !python test.py
 
+# Detection Results
 
+![image](checkpoints/my_results.jpg)
 
