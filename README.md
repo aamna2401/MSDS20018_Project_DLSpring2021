@@ -2,7 +2,7 @@
 
 # Dataset Link
 
-[Link](https://drive.google.com/drive/u/0/folders/1yTuWZM-5HQYiTXteFZUJgpEdyI2gYu7F)
+[Dataset here](https://drive.google.com/drive/u/0/folders/1yTuWZM-5HQYiTXteFZUJgpEdyI2gYu7F)
 
 # Dependencies
 - numpy
@@ -14,7 +14,7 @@
 - tensorboardX
 
 
-# Model Training:#
+# Model Training
 
 !python train.py --model_save_dir /mydrive/FasterRCNN/checkpoints
 
@@ -25,10 +25,15 @@ Training mAp  | 0.98
 Validation mAP | 0.17
 Best mAp  | 0.19
 
+## mAp vs epochs
 
+![image](checkpoints/mAp.png)
 
+## Training Loss and Learning Rate
 
-Model Testing
+![image](checkpoints/loss_and_lr.png)
+
+# Model Testing
 
 !python test.py
 
